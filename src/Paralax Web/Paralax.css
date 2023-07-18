@@ -1,0 +1,128 @@
+
+section{
+    height: 100vh;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+
+
+
+
+
+.pimg1 {
+    background-image: url(img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    background-attachment:fixed;
+    position: relative;
+}
+
+.text_bg {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 250pxpx;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text_bg1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 250pxpx;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pimg2 {
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    background-attachment:fixed;
+
+}.pimg3 {
+    background-image: url(img/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    background-attachment:fixed;
+
+}
+
+.pimg4 {
+    background-image: url(img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    background-attachment:fixed;
+}
+
+.p-section1 {
+    background-color: white;
+    padding: 30px 100px 20px 100px;
+}
+
+.p-section1 h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #2c2b2b;
+    
+}
+
+.p-section1 p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+@media (max-width:50rem){
+    .pimg3,.pimg1,.pimg2.pimg4{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .text_bg{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+    }
+
+    .text_bg1 {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        height: 80px;
+        width:250px ;
+        text-align: center;
+        line-height: 30px;
+        
+        
+    }
+}
